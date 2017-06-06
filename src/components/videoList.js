@@ -4,7 +4,6 @@ var VideoListCtrl = function ($scope) {
   ctrl.$onInit = function () {
     console.log(this.videos);
   };
-
 };
 
 angular.module('video-player')
