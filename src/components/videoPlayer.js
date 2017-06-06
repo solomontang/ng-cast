@@ -1,16 +1,12 @@
-var VideoPlayerCtrl = function ($scope) {
-  var ctrl = this;
-  ctrl.$onInit = () => {
-    console.log(this, ctrl);
-    console.log($scope);
-  };
-};
-
 angular.module('video-player')
+.controller('VideoPlayerCtrl', function($scope) {
+  
+})
+
 .component('videoPlayer', {
+  controller: 'VideoPlayerCtrl',
   bindings: {
     currentVideo: '<'
   },
-  controller: VideoPlayerCtrl,
   templateUrl: 'src/templates/videoPlayer.html'
 });

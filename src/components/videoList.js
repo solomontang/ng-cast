@@ -1,17 +1,13 @@
-var VideoListCtrl = function ($scope) {
-  var ctrl = this;
-  // console.log(ctrl.videos);
-  // ctrl.$onInit = function () {
-  //   console.log(this);
-  // };
-};
-
 angular.module('video-player')
+.controller('VideoListCtrl', function ($scope) {
+
+})
+
 .component('videoList', {
   bindings: {
     videos: '<',
   },
-  controller: VideoListCtrl,
+  controller: 'VideoListCtrl',
   templateUrl: 'src/templates/videoList.html'
 });
 
