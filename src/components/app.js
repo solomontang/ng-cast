@@ -3,7 +3,7 @@ angular.module('video-player')
   // var ctrl = this;
   // ctrl.$onInit = function () {
   this.videos = exampleVideoData;
-  this.currentVideo = exampleVideoData[0];  
+  this.video = exampleVideoData[0];  
   // }
   // this.videos = exampleVideoData;
   // this.currentVideo = exampleVideoData[0];

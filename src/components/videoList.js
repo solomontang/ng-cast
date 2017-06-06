@@ -1,6 +1,5 @@
 angular.module('video-player')
 .controller('VideoListCtrl', function ($scope) {
-
 })
 
 .component('videoList', {
