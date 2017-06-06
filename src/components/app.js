@@ -1,15 +1,7 @@
 angular.module('video-player')
-.controller('AppCtrl', function ($scope, $element, $attrs) {
-  // var ctrl = this;
-  // ctrl.$onInit = function () {
+.controller('AppCtrl', function () {
   this.videos = exampleVideoData;
-  this.video = exampleVideoData[0];  
-  // }
-  // this.videos = exampleVideoData;
-  // this.currentVideo = exampleVideoData[0];
-  // // ctrl.videos = exampleVideoData;
-  // // ctrl.currentVideo = exampleVideoData[0];
-  // // console.log(ctrl);
+  this.currentVideo = exampleVideoData[0];  
 })
 
 

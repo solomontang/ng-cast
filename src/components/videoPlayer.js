@@ -1,11 +1,13 @@
 angular.module('video-player')
-.controller('VideoPlayerCtrl', function($scope) {
-})
 
 .component('videoPlayer', {
   bindings: {
     video: '<',
   },
-  controller: 'VideoPlayerCtrl',
+  controller: function () {
+    this.getUrl = () => {
+      return `https://www.youtube.com/embed/${this.video.id.videoId}`;
+    };
+  },
   templateUrl: 'src/templates/videoPlayer.html'
 });
