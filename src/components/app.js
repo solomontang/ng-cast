@@ -1,7 +1,11 @@
 angular.module('video-player')
 .controller('AppCtrl', function () {
   this.videos = exampleVideoData;
-  this.currentVideo = exampleVideoData[0];  
+  this.currentVideo = exampleVideoData[0];
+
+  this.selectVideo = (video) => {
+    this.currentVideo = video;
+  };
 })
 
 
