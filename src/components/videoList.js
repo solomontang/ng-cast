@@ -1,9 +1,9 @@
 var VideoListCtrl = function ($scope) {
   var ctrl = this;
-  console.log(this);
-  ctrl.$onInit = function () {
-    console.log(this.videos);
-  };
+  // console.log(ctrl.videos);
+  // ctrl.$onInit = function () {
+  //   console.log(this.videos);
+  // };
 };
 
 angular.module('video-player')
